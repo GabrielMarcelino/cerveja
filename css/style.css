@@ -1,0 +1,182 @@
+body{
+    background-color: #212121;
+}
+.top{
+    background-color: #EDBF00;
+    height: 10px;
+    width: 20%;
+    margin: 0 40%;
+}
+.tabela{
+    width: 60%;
+    padding-top: 1.5%;
+}
+.grafico{
+    width: 40%;
+}
+.tabela h1{
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-left: 5%;
+    margin-bottom: 4%;
+}
+.tabela h1 span{
+    float: right;
+    font-weight: 700;
+}
+
+.table thead{
+    background-color: #EDBF00;
+    color: #000;
+    border: 0px solid #CCC!important;
+}
+.table thead tr{
+    
+    border: 0px solid #CCC!important
+}
+.table thead tr th{
+    border: 0px solid #CCC!important;
+    padding: 3px 0;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 0.9em;
+}
+.table thead tr th:nth-of-type(1){
+    border-top-left-radius: 20px;
+}
+.table thead tr th:nth-of-type(4){
+    border-top-right-radius: 20px;
+}
+tbody{
+    border: 0.75px solid #333333;
+}
+tbody tr{
+    
+}
+tbody tr:nth-child(2n){
+    background-color: #000;
+}
+tbody tr:nth-child(2n) td:nth-of-type(1){
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+tbody tr:nth-child(2n) td:nth-of-type(4){
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+tbody tr td{
+    font-size: 0.9em;
+    font-weight: 700;
+    border: 0px solid #FFF!important;
+    background-color: transparent;
+}
+tbody tr td:nth-of-type(1){
+    color: #EDBF00;
+}
+tbody tr td:nth-of-type(2){
+    
+}
+tbody tr td:nth-of-type(3){
+    
+}
+tbody tr td:nth-of-type(4){
+    
+}
+
+
+.clock{
+    zoom: 0.8;
+    -moz-transform: scale(0.5);
+    padding-top: 1%;
+}
+.brand{
+    float: right;
+    width: 35%;
+}
+.brand img{
+    width: 100%;
+}
+.grafico-item{
+    width: 100%;
+    padding: 3%;
+}
+.grafico-item img{
+    width: 100%;
+}
+.button-1,.button-2{
+    color: #FFF;
+    display: flex;
+    width: 94%;
+    margin: 0 3%;
+    padding: 0 3%;
+}
+.button-1{
+    border: 1px solid red;
+    line-height: 30px;
+    padding-top: 1%;
+    border-radius: 20px;
+    margin-bottom: 3%;
+}
+.button-2{
+    border: 1px solid green;
+    line-height: 30px;
+    padding-top: 1%;
+    border-radius: 20px;
+}
+.button-1 p,.button-2 p{
+    width: 50%;
+}
+.button-1 p:nth-of-type(1),.button-2 p:nth-of-type(1){
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.button-1 p:nth-of-type(1) span{
+    color: red;
+    font-size: 2em;
+    line-height: 30px;
+    vertical-align: bottom;
+}
+.button-2 p:nth-of-type(1) span{
+    color: green;
+    font-size: 2em;
+    line-height: 30px;
+    vertical-align: bottom;
+}
+.button-1 p:nth-of-type(2), .button-2 p:nth-of-type(2){
+    text-align: right;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+
+.subindo td{
+    background-color: #FFF;
+    color: #000!important;
+}
+.subindo td:nth-of-type(4)::after{
+    font-family: FontAwesome;
+    content: "\f102";
+    color: greenyellow;
+    font-size: 2.7em;
+    line-height: 10px;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: .3%;
+    
+}
+
+.descendo td{
+    background-color: red;
+    color: #FFF!important;
+}
+.descendo td:nth-of-type(4)::after{
+    font-family: FontAwesome;
+    content: "\f103";
+    font-size: 2.7em;
+    line-height: 10px;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: .3%;
+}
+
+
